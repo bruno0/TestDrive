@@ -1,0 +1,23 @@
+Thank you for the experience, due to the lack of time (work+dissertation) I only started to do the challenge today, 
+Friday 9 so I didn't finish it.
+
+How to build and run your application:
+ Import it in eclipse/other IDE as maven project.
+ Change the path to json File in the Class com.mercedes.tesDrive.dto.JsonParser;
+ To run, just Run the com.mercedes.tesDrive.App Class.
+ 
+ In Browser:
+  List all vehicles by:
+          Model: http://localhost:8080/model?model=E
+          
+          Fuel type: http://localhost:8080/fuel?fuel=ELECTRIC
+          Transmission: http://localhost:8080/transmission?transmission=AUTO
+          Dealer: http://localhost:8080/dealer?dealer=MB%20Lisboa
+          
+ List all bookings: http://localhost:8080/bookings?list=bookings
+
+Explanation about your choices, their limitations and possible improvements:
+I would complete the challenge if I had started earlier. With more time I would make add a beautifull interface instead of 
+presenting the results as json in browser.
+
+
