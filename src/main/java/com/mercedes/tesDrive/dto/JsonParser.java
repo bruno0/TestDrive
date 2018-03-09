@@ -33,7 +33,7 @@ public class JsonParser {
 		ArrayList<Vehicle> _vehicles = null;
         JSONParser parser = new JSONParser();
        
-
+        //Change path to the Json file here
         Object obj = parser.parse(new FileReader("/home/bruno/Desktop/dataset.json"));
 		
         
